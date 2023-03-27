@@ -1,0 +1,284 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  background: rgb(250, 250, 250);
+}
+
+#page-1 {
+  background-image: url("images/Desktop\ -\ 1.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 1440px;
+  height: 760px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 100px;
+}
+
+.brandname {
+  color: black;
+  font-size: 24px;
+  margin-left: 160px;
+  align-self: center;
+}
+
+.category {
+  color: black;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  align-self: center;
+}
+
+.category li {
+  margin-right: 21px;
+}
+
+.login {
+  display: flex;
+  width: 300px;
+  margin-right: 200px;
+  align-self: center;
+}
+
+.login div {
+  color: white;
+  margin-right: 30px;
+  align-self: center;
+}
+
+.login button {
+  color: white;
+  background-color: #23a6f0;
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+  width: 220px;
+  height: 60px;
+}
+
+.middle-area {
+  height: 660px;
+  position: relative;
+}
+
+.business-info {
+  position: absolute;
+  top: 55%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 400px;
+}
+
+.business-advisory-services {
+  font-weight: bold;
+  font-size: 58px;
+  color: rgba(37, 43, 66, 1);
+  width: 590px;
+  height: 160px;
+  width: 587px;
+  height: 160px;
+}
+
+.business-info .info {
+  width: 450px;
+  height: 60px;
+}
+
+.button-1 {
+  background: rgba(35, 166, 240, 1);
+  color: white;
+  border: none;
+  width: 195px;
+  height: 60px;
+  border-radius: 100px;
+  font-size: 14px;
+}
+
+.button-2 {
+  background: transparent;
+  color: rgba(35, 166, 240, 1);
+  border: 1px solid rgba(35, 166, 240, 1);
+  width: 195px;
+  height: 60px;
+  border-radius: 100px;
+  font-size: 14px;
+}
+
+#page-2 {
+  width: 1440px;
+  height: 760px;
+}
+
+.business-advice {
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 85px;
+  margin-left: 195px;
+}
+
+.business-advice-info {
+  margin-top: 10px;
+  margin-left: 195px;
+  width: 450px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-top: 80px;
+  margin-left: 195px;
+  margin-right: 195px;
+}
+
+.items {
+  background: rgba(255, 255, 255, 1);
+  color: rgba(115, 115, 115, 1);
+  width: 300px;
+  height: 112px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  margin-left: 195px;
+  margin-top: 80px;
+  height: 50px;
+}
+
+#page-3 {
+  width: 1440px;
+  height: 900px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.client {
+  margin-top: 50px;
+}
+
+.clients-say {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.clients-say-1 {
+  color: rgba(115, 115, 115, 1);
+  margin-left: 390px;
+  margin-top: 10px;
+  width: 650px;
+}
+
+.worker-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-top: 65px;
+  margin-left: 195px;
+  margin-right: 195px;
+}
+
+.worker-info-details {
+  display: flex;
+  width: 460px;
+  height: 300px;
+}
+
+.details {
+  color: rgba(115, 115, 115, 1);
+  width: 242px;
+  height: 105px;
+  line-height: 1.5;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.names {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.sub-container {
+  background: rgba(37, 43, 66, 1);
+  display: flex;
+  height: 260px;
+  margin-top: 100px;
+}
+
+.sub-container .info {
+  color: white;
+  text-align: left;
+  margin-left: 195px;
+  margin-top: 66px;
+}
+
+.info-1 {
+  width: 445px;
+  font-size: 14px;
+}
+
+.sub-now {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  margin-left: 160px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  height: 43px;
+  width: 333px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+button[type="submit"] {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: rgba(35, 166, 240, 1);
+  color: #fff;
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+  height: 55px;
+  width: 117px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.last {
+  display: flex;
+  margin-left: 195px;
+  margin-top: 25px;
+}
+
+.logo {
+  margin-left: 500px;
+}
+
+.logo img {
+  margin-right: 20px;
+}
